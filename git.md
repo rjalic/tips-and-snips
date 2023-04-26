@@ -67,3 +67,9 @@ Set a different ssh-key for specifically for the repository
 ```
 git config core.sshCommand "ssh -o IdentitiesOnly=yes -i ~/.ssh/private-key-filename-for-this-repository -F /dev/null"
 ```
+
+Disable auto-crlf
+
+```
+git config --global core.autocrlf false
+```
