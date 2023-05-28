@@ -33,7 +33,7 @@ Sort (sort key is same as group key), method quicksort
 -> Bitmap Heap Scan (same number of rows)
     Recheck Cond: (very long condition string)
     Rows Removed by Index Recheck: ~818k
-    Filter: (different very long filter with enum <> ALL('{array of excluded enum values}'::integer[])
+    Filter: (different very long filter with enum <> ALL('{array of excluded enum values}'::integer[]))
     Rows Removed by Filter: ~335.7k
     Heap Blocks: exact=~63.2k lossy=~67.9k
     -> BitmapOr
