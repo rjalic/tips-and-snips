@@ -1,2 +1,3 @@
-# tips-and-snips
-A repo with useful stuff
+# Tips & Snips
+
+A repo with useful tips and code snippets.

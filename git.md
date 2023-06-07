@@ -1,7 +1,5 @@
 # Git
 
-## Tips
-
 Stage all files including untracked files
 
 ```
