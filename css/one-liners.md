@@ -6,7 +6,7 @@ Adds a gap between flex or grid items.
 
 ```css
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/gap */
-gap: length or percentage;
+gap: length | percentage;
 ```
 
 ## Writing mode
@@ -24,10 +24,10 @@ Flips the image based on the scale.
 
 ```css
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleX */
-transform: scaleX(-1); // for horizontal
+transform: scaleX(-1); /* for horizontal */
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleY */
-transform: scaleY(-1); // for vertical
+transform: scaleY(-1); /* for vertical */
 ```
 
 ## Scrolling
@@ -48,7 +48,7 @@ Snap to the item element based on the axis and type.
 ```css
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type */
 .container {
-  scroll-snap-type: x mandatory/proximity;
+  scroll-snap-type: x mandatory | proximity;
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align */
@@ -65,7 +65,7 @@ Resize a container.
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/resize */
 .container {
   overflow: auto;
-  resize: both/vertical/horizontal/none;
+  resize: both | vertical | horizontal | none;
 }
 ```
 
