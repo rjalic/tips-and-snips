@@ -36,11 +36,11 @@ type Form = {
   };
 };
 
-type Path<T> = T extends object
-  ? { [Key in keyof T]: [Key] | [Key, ...Path<T[Key]>] }[keyof T]
+type PathArray<T> = T extends object
+  ? { [Key in keyof T]: [Key] | [Key, ...PathArray<T[Key]>] }[keyof T]
   : never;
 
-const streetName: Path<Form> = ['address', 'street', 'streetName'];
+const streetName: PathArray<Form> = ['address', 'street', 'streetName'];
 ```
 
 This array based access type can then be further expanded into a JSON path type.
