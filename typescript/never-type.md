@@ -2,7 +2,7 @@
 
 Used when a value should never have a certain value. The benefit of using it is to catch errors in compile time instead of them being caught in runtime.
 
-## Compile time non empty strings
+## Compile time non-empty strings
 
 ```typescript
 type NonEmptyString<T extends string> = T extends '' ? never : T;
@@ -43,4 +43,5 @@ function getCountry(city: City) {
 }
 
 getCountry('Munich');
+// error will now occur at compile time
 ```

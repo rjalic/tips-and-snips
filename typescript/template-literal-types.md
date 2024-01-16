@@ -2,7 +2,7 @@
 
 ## Permutation of multiple types
 
-If the required type is a permutation of one or multiple types it can be done easly using template literal types.
+If the required type is a permutation of one or multiple types it can be done easily using template literal types.
 
 ```typescript
 type ChessLetter = 'A' | 'B' | 'C';
